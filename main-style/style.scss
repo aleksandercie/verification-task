@@ -441,21 +441,15 @@ a {
 .footer {
     background-color: $grey-color;
     padding: 60px 0;
-    display: flex;
-    justify-content: center;
+    text-align: center;
     &__container{
         max-width: 400px;
         margin: auto;
         text-align: center;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
     }
     &__icons {      
         margin: 0 auto 30px;
-        display: flex;
-        flex-direction: row;
+        text-align: center;
 
         i {
             margin: 0 10px;
