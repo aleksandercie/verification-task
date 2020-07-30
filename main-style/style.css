@@ -448,6 +448,19 @@ a {
 
 .footer {
   background-color: #333;
+  padding: 60px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.footer__container {
+  max-width: 400px;
+  margin: auto;
+  text-align: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -461,12 +474,9 @@ a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 60px 0;
-  text-align: center;
 }
 
 .footer__icons {
-  max-width: 400px;
   margin: 0 auto 30px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -492,7 +502,6 @@ a {
 }
 
 .footer__info {
-  max-width: 400px;
   margin: 12px auto;
   text-align: center;
   color: #fff;

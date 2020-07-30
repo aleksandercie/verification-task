@@ -440,15 +440,19 @@ a {
 // Footer section
 .footer {
     background-color: $grey-color;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
     padding: 60px 0;
-    text-align: center;
-
-    &__icons {
+    display: flex;
+    justify-content: center;
+    &__container{
         max-width: 400px;
+        margin: auto;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    &__icons {      
         margin: 0 auto 30px;
         display: flex;
         flex-direction: row;
@@ -467,12 +471,12 @@ a {
     }
 
     &__info {
-        max-width: 400px;
         margin: 12px auto;
         text-align: center;
         color: $white-color;
 
     }
+
 }
 
 // Media Queries 
